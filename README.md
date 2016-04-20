@@ -11,9 +11,5 @@ Team Member | Git Link | Video Link
 Amber Murray | https://github.com/LydiaHasBurdens | https://youtu.be/rvUIfV3u_LQ
 Paul Redmond | https://github.com/Irish-Day-Man | https://youtu.be/QPp-yDOv46c
 Aaron Renaghan | https://github.com/aaronr4043 | https://youtu.be/1oagAjWXoKY
-             
-Respective Video Links - https://youtu.be/rvUIfV3u_LQ
-                       - https://youtu.be/QPp-yDOv46c
-                       - https://youtu.be/1oagAjWXoKY
 
 We plan to further polish the game over the next few months.
