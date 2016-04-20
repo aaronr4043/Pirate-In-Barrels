@@ -22,13 +22,13 @@ public class PathFollowing : MonoBehaviour {
         {
             shipHealth = 2 + (CoreBehaviour.waveNumber/2);
             damage = 5;
-            moneyValue = 20;
+            moneyValue = 15;
         }
         else if(gameObject.transform.name== "Galleon(Clone)")
         {
             shipHealth = 5 + (CoreBehaviour.waveNumber/2);
             damage = 25;
-            moneyValue = 80;
+            moneyValue = 60;
         }
 
         else if(gameObject.transform.name== "GhostSphereForWavePause(Clone)")
@@ -68,7 +68,7 @@ public class PathFollowing : MonoBehaviour {
 
     public void checkDeath()
     {
-        if (shipHealth == 0)
+        if (shipHealth <= 0)
         {
             GameObject.FindObjectOfType<ScoreMoney>().money+=moneyValue;
             Destroy(this.gameObject);

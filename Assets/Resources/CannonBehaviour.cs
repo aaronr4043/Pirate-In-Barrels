@@ -87,9 +87,5 @@ public class CannonBehaviour : MonoBehaviour
         
         
     }
-    void onMouseDown()
-    {
-        Debug.Log("YOU ARE A BUTT");
-    }
     
 }

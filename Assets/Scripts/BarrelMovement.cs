@@ -99,11 +99,7 @@ public class BarrelMovement : MonoBehaviour
             character.transform.position = newPosition;
 
         }//end if statements for movement
-        if (Input.GetKey(KeyCode.Space))
-        {
-            Debug.Log("X: " + character.transform.position.x + " Z: " + character.transform.position.z);
-
-        }//end if
+        
 
     }//end update
 

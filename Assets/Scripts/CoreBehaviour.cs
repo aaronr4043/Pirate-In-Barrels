@@ -19,7 +19,7 @@ public class CoreBehaviour : MonoBehaviour {
         if (towerhealth <= 0)
         {
             //GAMEOVER
-            Application.LoadLevel(2);
+            Application.LoadLevel(4);
 
         }//end if
 	}
@@ -47,3 +47,4 @@ public class CoreBehaviour : MonoBehaviour {
         waveNumber++;
     }
 }
+
